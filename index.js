@@ -857,9 +857,12 @@ module.exports = {
        * by DenisFerrero
        * @link https://github.com/grinat/moleculer-auto-openapi/issues/13
        */
-      if (node.pattern && (node.pattern.length > 0 || node.pattern.source.length > 0)) {
-        out.pattern = new RegExp(node.pattern).source;
+      if(node.pattern) {
+        if (node.pattern.length > 0 || node.pattern.source.length > 0) {
+          out.pattern = new RegExp(node.pattern).source;
+        }
       }
+
 
       return out;
     },
