@@ -1,7 +1,7 @@
 {
-  "name": "moleculer-auto-openapi",
-  "version": "1.1.6",
-  "description": "Auto generate openapi(swagger) scheme for molecular",
+  "name": "moleculer-auto-openapi-codebros-fork",
+  "version": "1.1.7",
+  "description": "Auto generate openapi(swagger) scheme for moleculer",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grinat/moleculer-auto-openapi.git"
+    "url": "git+https://github.com/balazsjdp/moleculer-auto-openapi"
   },
   "keywords": [
     "openapi",
@@ -19,9 +19,9 @@
   "author": "Gabdrashitov Rinat <paladin2012gnu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grinat/moleculer-auto-openapi/issues"
+    "url": "https://github.com/balazsjdp/moleculer-auto-openapi/issues"
   },
-  "homepage": "https://github.com/grinat/moleculer-auto-openapi#readme",
+  "homepage": "https://github.com/balazsjdp/moleculer-auto-openapi#readme",
   "jest": {
     "testEnvironment": "node",
     "testTimeout": 60000
