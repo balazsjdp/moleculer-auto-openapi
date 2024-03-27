@@ -853,16 +853,6 @@ module.exports = {
       out.minLength = node.length || node.min;
       out.maxLength = node.length || node.max;
 
-      /**
-       * by DenisFerrero
-       * @link https://github.com/grinat/moleculer-auto-openapi/issues/13
-       */
-      if(node.pattern) {
-        if (node.pattern.length > 0 || node.pattern.source.length > 0) {
-          out.pattern = new RegExp(node.pattern).source;
-        }
-      }
-
 
       return out;
     },

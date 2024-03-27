@@ -16,7 +16,7 @@
     "swagger",
     "moleculer"
   ],
-  "author": "Gabdrashitov Rinat <paladin2012gnu@gmail.com>",
+  "author": "Balazs Horvath",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/balazsjdp/moleculer-auto-openapi/issues"
